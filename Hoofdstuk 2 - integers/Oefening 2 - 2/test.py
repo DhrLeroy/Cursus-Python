@@ -8,7 +8,7 @@ from shared.test_helpers import test_output
 
 oefening_path = os.path.join(os.path.dirname(__file__), "oefening.py")
 
-test_output(oefening_path, "x²+2x-3 met x = 2 is 5", "2")
+test_output(oefening_path, "x^4-3x^3+1/4 x-9 met x = 2 is -16.5", "2")
 
 print("Test 2: a = 5, b = 3")
-test_output(oefening_path, "x²+2x-3 met x = 5 is 32", "5")
+test_output(oefening_path, "x^4-3x^3+1/4 x-9 met x = 5 is 242.25", "5")
