@@ -1,0 +1,3 @@
+# Input
+
+Schrijf de volgende tekst op het scherm, zonder gebruik te maken van variabelen: Ik zei tegen hem: "Ik bel je 's avonds"

@@ -1,0 +1,3 @@
+# Input
+
+Vraag aan de gebruiker de naam van diens favoriete huisdier ("Wat is jouw favoriete huisdier? ") en schrijf: Ik hou zo van huisdier.
