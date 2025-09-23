@@ -2,8 +2,9 @@
 #print(huisdier)
 
 
-#naam = "Mathijs"
-#hobby = "programmeren"
+naam = input("Wat is jouw naam? ")
+hobby = input("Wat is jouw hobby? ")
 # schrijf een zin op het scherm
-#print(f"{naam} doet graag {hobby}")
+print(f"{naam} doet graag {hobby}")
+
 
