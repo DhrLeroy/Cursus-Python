@@ -1,5 +1,15 @@
 from math import *
 
+nummers = [1,2,3]
+
+print(len(nummers))
+
+for nummer in nummers:
+    nummers.remove(nummer)
+    print(nummers)
+
+print("Alles verwijderd")
+print(nummers)
 
 a = float(input("Geef een getal a: "))
 
