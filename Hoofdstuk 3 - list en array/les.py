@@ -1,18 +1,15 @@
-nummers = []
-
-#nummers.append(2)
-#nummers.append(7)
-#nummers.append(3)
+'''lijst = [2,3,4,5,7]
+lijst.append(1)
 
 som = 0
 
-for getal in range(10):
-    naam = input("Naam: ")
+for getal in lijst:
+    som = som + getal
 
-'''for x in nummers:
-    som = som + x
+print(som)
+print(f'Gemiddele: {som/len(lijst)}')'''
 
-print(som)'''
+lijst = []
 
-
-
+for getal in range(100):
+    lijst.append(int(input("Geef een getal: ")))
