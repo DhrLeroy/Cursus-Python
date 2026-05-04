@@ -1,3 +1,43 @@
+getal = int(input("Getal: "))
+
+if getal > 0:
+    print(f"{getal} is strikt positief.")
+else:
+    if getal == 0:
+        print(f'{getal} is 0')
+    else:
+        print(f"{getal} is strikt negatief.")
+
+maand_getal = int(input("Maand: "))µ
+
+if maand_getal == 1:
+    print("Januari")
+elif maand_getal == 2:
+    print("Februari")
+elif maand_getal == 12:
+    print("December")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input()
+
+
+
 leeftijd = int(input("Leeftijd: "))
 
 for teller in range(1,6):
@@ -36,3 +76,15 @@ if python_is_leuk:
 
 print("Gedaan")
 
+
+
+
+
+leeftijd = int(input("Leeftijd: "))
+
+if leeftijd >= 18:
+    print("Meerderjarig")
+elif leeftijd <= 1:
+    print("Baby")
+else:
+    print("Kind")
