@@ -1,0 +1,1 @@
+print(f'Prijs: {round(12345.6789,2):.0f} euro')

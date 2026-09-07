@@ -29,4 +29,4 @@ aantal_pizzas_buiten_deal = aantal % pizzas_per_deal
 
 totaal = (aantal_keer_deal * prijs_per_deal) + (aantal_pizzas_buiten_deal * prijs)
 
-print(f'Prijs: {totaal} euro')
+print(f'Prijs: {round(totaal,2):.2f} euro')
