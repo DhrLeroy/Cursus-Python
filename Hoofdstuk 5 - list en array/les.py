@@ -1,4 +1,43 @@
-mijn_lijst = []
+namen = ["Alex Apple", "Bert Microsoft", "Charlie Linux", "Dagobert iOs", "Erdogan Android"]
+
+'''for teller in range(1,4):
+    namen.append(input(f"{teller}. Geef een naam: "))
+
+for positie in range(len(namen)):
+    voornaam = namen[positie]
+    achternaam = input(f"Geef achternaam van {voornaam}: ")
+    namen[positie] = f"{voornaam} {achternaam}"
+
+print(namen)'''
+
+
+print("Eerste naam:",namen[0])
+
+print("Eerste 3 namen, telkens 1 overslaan:",namen[0:5:2])
+
+print("Van achter naar voor:",namen[::-1])
+
+alfabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+print(alfabet[::-1])
+print(alfabet[0:len(alfabet):2])
+print(alfabet[0:3])
+print(alfabet[len(alfabet)-3:len(alfabet)])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''mijn_lijst = []
 
 # toevoegen
 mijn_lijst = [1, 2, 3]
@@ -55,7 +94,7 @@ for getal in range(20, -3, -2):
 getallen = [1, 2, 3, ..., 98, 99, 100]
 
 for getal in getallen:
-    Print = getallen.append(1)
+    Print = getallen.append(1)'''
 
 
 
@@ -172,6 +211,10 @@ for positie in range(len(letters)):
 for letter in letters:
     print(f'Letter: {letter}')
 print(letters)'''
+
+
+
+
 
 
 

@@ -1,0 +1,1 @@
+Maak een Python programma die de grootst gemeenschappelijke deler en kleinst gemeenschappelijk veelvoud van 2 getallen weet te achterhalen.
