@@ -1,0 +1,1 @@
+# Maak een lijst en steek hier 3 getallen (1, 2, 3) in. Overloop deze lijst en tel alle getallen bij elkaar op en toon dit op het scherm.

@@ -1,28 +1,30 @@
-p = 100
-r = 0.06
-n = 12
-t = 7
+prijs = float(input('Prijs (er is een korting van een halve euro) = ')) - 0.5
+aantal = int(input("Aantal (je krijgt er 1 extra) = ")) + 1
 
-totaal = p * (1 + r/n)**(n*t)
+print("Je hebt 50 procent korting!!!")
 
-print(totaal)
+totaal = (prijs * aantal) / 2
 
-'''x = input("x: ")
-x = int(x)
+print("Het totaal is",totaal)
 
-y = int(input("y: "))
 
-#z = float(input("z: "))
 
-som = x + y
-verschil = x - y
-product = x * y
-quotient = x / y
-gehele_deling = x // y
-macht = x ** y
-wortel = x ** (1/y)
-vierkantswortel = x ** (1/2)
-rest = x % y
 
-print(gehele_deling)
-print(rest)'''
+
+
+
+
+
+
+
+
+
+
+'''prijs_tekst = input("Prijs: ")
+prijs = int(prijs_tekst)
+aantal_tekst = input("Aantal: ")
+aantal = int(aantal_tekst)
+
+totaal = prijs * aantal
+
+print('Het totaal is',totaal)'''

@@ -1,0 +1,1 @@
+# Maak een lijst en steek hier 3 namen in van huisdieren ("Geef een naam van jouw huisdier op: "). Overloop deze lijst en toon deze strings op het scherm, met 'Ik hou zo van ...!'
