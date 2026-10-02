@@ -1,2 +1,0 @@
-# j. Slicing
-Maak een programma waarbij de gebruiker een telefoonnummer moet ingeven (zonder spaties). Je controleert of het telefoonnummer begint met ‘00324’, ‘04’ of ‘+324’ en hierachter 9 tekens volgen. Als dit niet klopt, toon je de melding ‘Ongeldig telefoonnummer’. Vervolgens toon je het telefoonnummer aan de gebruiker maar vervang je alle cijfers, behalve de 2 laatste, door een *.

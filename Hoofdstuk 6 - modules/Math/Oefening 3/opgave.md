@@ -1,1 +1,2 @@
-# Maak een lijst en steek hier 3 namen in van huisdieren ("Geef een naam van jouw huisdier op: "). Overloop deze lijst en toon deze strings op het scherm, met 'Ik hou zo van ...!'
+Maak een programma dat de 6 eigenschappen (zijden a,b,c en hoeken alfa, beta, gamma) van een driehoek bevraagt. Sommige eigenschappen kunnen worden leeggelaten (niet invullen of 0). Bepaal de overige hoeken/zijden van de driehoek die niet werden ingevuld. Gebruik de cosinusregel en sinusregel om de ontbrekende waarden te berekenen.
+
