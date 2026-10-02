@@ -1,0 +1,1 @@
+17.	Breid oefening 16 uit waarbij je voor deze persoon een e-mailadres genereerd. Alle e-mailadressen zijn hetzelfde opgebouwd: achternaam.voornaam@domein.com. Hierin mogen geen spaties of koppeltekens voorkomen. Bijvoorbeeld: CruzDaSantos.Alicia@domein.com of DeGrootte.JanPieter@domein.com.

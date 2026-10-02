@@ -1,0 +1,1 @@
+16.	Maak een programma waarbij de iemand zijn volledige naam kan ingeven (voornaam spatie achternaam). Bij voornamen die uit meerdere delen bestaan (bv. “Jan-Pieter”, “Gert-Jan”, “Jean-Louis”) dienen deze delen steeds aan elkaar verbonden te worden met een koppelteken. Personen kunnen meerdere achternamen hebben (bv. “Jan-Pieter De Grootte” of “Alicia Cruz Da Santos”).
