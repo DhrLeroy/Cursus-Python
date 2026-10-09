@@ -1,4 +1,51 @@
-namen = ["Alex Apple", "Bert Microsoft", "Charlie Linux", "Dagobert iOs", "Erdogan Android"]
+s = "Hallo"
+
+output = ""
+
+for positie in range(1,3): # 1, 2
+    output = output + s[positie]
+
+print(s[1:3])
+#print(output)
+output = ""
+
+for positie in range(3): # 0, 1, 2
+    output = output + s[positie]
+
+print(output)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''namen = ["Alex Apple", "Bert Microsoft", "Charlie Linux", "Dagobert iOs", "Erdogan Android"]'''
 
 '''for teller in range(1,4):
     namen.append(input(f"{teller}. Geef een naam: "))
@@ -11,7 +58,7 @@ for positie in range(len(namen)):
 print(namen)'''
 
 
-print("Eerste naam:",namen[0])
+'''print("Eerste naam:",namen[0])
 
 print("Eerste 3 namen, telkens 1 overslaan:",namen[0:5:2])
 
@@ -22,7 +69,7 @@ print(alfabet[::-1])
 print(alfabet[0:len(alfabet):2])
 print(alfabet[0:3])
 print(alfabet[len(alfabet)-3:len(alfabet)])
-
+'''
 
 
 

@@ -18,10 +18,6 @@ for letter in landcode:
         test = test + "14"
 test = test + controle
 
-print(test)
-
-print(int(test) % 97 )
-
 wel_niet = "een" if int(test) % 97 == 1 else "geen"
 
 print(f"{iban} is {wel_niet} geldig rekeningnummer.")
