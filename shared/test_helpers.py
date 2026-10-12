@@ -50,6 +50,20 @@ def test_output(oefening_path, expected_output, *inputs):
         print(f"  Jouw uitvoer    : '{actual_output}'")
 
 
+def test_output_message(oefening_path, message, expected_output, *inputs):
+    clear_terminal_once()
+    inputs = list(inputs)
+    """Test of de uitvoer exact klopt."""
+    actual_output, _ = load_module(oefening_path, inputs)
+
+    if actual_output == expected_output:
+        print(f"{GREEN}✅ Test {message} geslaagd!{RESET}")
+    else:
+        print(f"{RED}❌ Test {message} mislukt!{RESET}")
+        print(f"  Verwachte uitvoer: '{expected_output}'")
+        print(f"  Jouw uitvoer    : '{actual_output}'")
+
+
 def test_variable(oefening_path, var_name, expected_value=None):
     """Test of een variabele bestaat en optioneel de waarde controleert."""
     _, oefening = load_module(oefening_path)
