@@ -8,6 +8,4 @@ from shared.test_helpers import test_output
 
 oefening_path = os.path.join(os.path.dirname(__file__), "oefening.py")
 
-test_output(oefening_path, "Geslaagd", "2","5","10","4","8")
-test_output(oefening_path, "Geslaagd", "3","5","10","4","8", "3","5")
-test_output(oefening_path, "Gebuisd", "2","4","10","4","8")
+

@@ -1,6 +1,10 @@
-getallen = [1,2,3]
-som = 0
-for getal in getallen:
-    som = som + getal
+stack = []
 
-print(som)
+while True:
+    datum = input("Vervaldatum: ")
+    if datum == "aangevuld":
+        break
+    stack.append(datum)
+input()
+volgende_vervaldatum = stack.pop()
+print(f"Dit product vervalt op {volgende_vervaldatum}")

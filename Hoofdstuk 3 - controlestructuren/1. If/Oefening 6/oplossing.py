@@ -1,13 +1,12 @@
-buiten_marge = 0
-standaard_inhoud = 33
-marge = standaard_inhoud*0.05
+rpm = int(input("RPM: "))
 
-for flesje in range(15):
-    inhoud = float(input("Inhoud: "))
-    if inhoud < standaard_inhoud - marge:
-        buiten_marge = buiten_marge + 1
-    if inhoud > standaard_inhoud + marge:
-        buiten_marge = buiten_marge + 1
+if rpm > 2000:
+    extraRPM = rpm - 2000
 
-if buiten_marge > 3:
-    print("Controleer de machine!")
+    minuten_70graden = ((70-15)/(extraRPM*0.02))/60
+    if minuten_70graden < 60:
+        print(f"Snelheid verlagen! (minuut {minuten_70graden//1})")
+    
+    minuten_90graden = ((90-15)/(extraRPM*0.02))/60
+    if minuten_90graden < 60:
+        print(f"Oververhitting, schakel nu de motor uit! (minuut {minuten_90graden//1})")

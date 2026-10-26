@@ -9,10 +9,3 @@ from shared.test_helpers import test_output
 oefening_path = os.path.join(os.path.dirname(__file__), "oefening.py")
 
 
-test_output(oefening_path, "-4 is geen priemgetal.", "-4")
-test_output(oefening_path, "-3 is een priemgetal.", "-3")
-test_output(oefening_path, "3 is een priemgetal.", "3")
-test_output(oefening_path, "4 is geen priemgetal.", "4")
-test_output(oefening_path, "6 is geen priemgetal.", "6")
-test_output(oefening_path, "7 is een priemgetal.", "7")
-test_output(oefening_path, "8 is geen priemgetal.", "8")

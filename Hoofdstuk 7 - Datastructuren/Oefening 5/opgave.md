@@ -1,1 +1,8 @@
-# e.	Laat de gebruiker een lijst van 3 ingrediënten opgeven. Overloop vervolgens deze lijst en plaats hier overal het nummer van de lijst voor. Bijvoorbeeld: 1. Eieren 2. Melk 3. Bloem
+Je maakt een programma waarbij je al jouw boeken die je op een rommelmarkt wil verkopen kan bijhouden. Je geeft eerst al jouw boeken in. Als je “ingevuld” opgeeft, vraag je vervolgens welk boek er is verkocht. Je verwijdert dit boek en toont een overzicht van de overige boeken.
+Boek: Hail Mary
+Boek: Rusteloosheid
+Boek: Dag Vlaanderen
+Boek: Jane Eyre
+Boek: ingevuld
+Welk boek werd er verkocht? Rusteloosheid
+Overige boeken: ['Hail Mary', ' Dag Vlaanderen ', ' Jane Eyre']

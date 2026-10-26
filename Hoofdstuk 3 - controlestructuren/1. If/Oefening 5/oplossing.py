@@ -1,13 +1,14 @@
-zomerse_dagen = 0
-tropische_dagen = 0
+hartslag = float(input("Hartslag: "))
+leeftijd = int(input("Leeftijd: "))
 
-for dag in range(7):
-    temperatuur = float(input("Temperatuur: "))
-    if temperatuur >= 25:
-        zomerse_dagen = zomerse_dagen + 1
-    if temperatuur >= 30:
-        tropische_dagen = tropische_dagen + 1
+maximale_hartslag = 208 - (leeftijd*0.7)
 
-if zomerse_dagen >= 5:
-    if tropische_dagen >= 3:
-        print("Hittegolf")
+verhouding = hartslag / maximale_hartslag
+
+if verhouding < 0.6:
+    print("Lichte inspanning")
+if 0.6 <= verhouding < 0.8:
+    print("Matige inspanning")
+if verhouding > 0.8:
+    print("Zware inspanning")
+    

@@ -8,4 +8,8 @@ from shared.test_helpers import test_output
 
 oefening_path = os.path.join(os.path.dirname(__file__), "oefening.py")
 
+test_output(oefening_path, "Hittegolf", "27", "25", "26", "31", "32", "31", "20")
+test_output(oefening_path, "Hittegolf", "25", "25", "26", "31", "32", "30", "20")
+test_output(oefening_path, "", "25", "25", "26", "31", "32", "20", "21")
+test_output(oefening_path, "", "24", "25", "32", "31", "32", "20", "21")
 

@@ -1,16 +1,12 @@
-gewicht_aarde = float(input("Gewicht (op Aarde, in Newton): "))
+totaal_geheugen_TB = float(input("Geheugen laptop (in TB): "))
 
-massa = gewicht_aarde / 9.81
+geheugen_gebruikt_GB = float(input("Geheugen gebruikt (in GB): "))
 
-ruimtelichaam = input("Kies een ruimtelichaam (Maan, Mars, Jupiter): ")
+geheugen_game_GB = float(input("Grootte van computergame (in GB): "))
 
-zwaartekrachtsversnelling = 0
+totaal_geheugen_GB = totaal_geheugen_TB * 1000
 
-if ruimtelichaam == "Maan":
-    zwaartekrachtsversnelling = 1.62
-if ruimtelichaam == "Mars":
-    zwaartekrachtsversnelling = 3.71
-if ruimtelichaam == "Jupiter":
-    zwaartekrachtsversnelling = 24.79
+beschikbaar_geheugen_GB = totaal_geheugen_GB - geheugen_gebruikt_GB
 
-print(f'Jouw gewicht op {ruimtelichaam} is {massa*zwaartekrachtsversnelling} Newton.')
+if beschikbaar_geheugen_GB < geheugen_game_GB:
+    print("Onvoldoende geheugen")

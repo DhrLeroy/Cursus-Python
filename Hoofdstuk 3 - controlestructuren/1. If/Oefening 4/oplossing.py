@@ -1,15 +1,16 @@
-aantal = int(input("Hoeveel toetsen heb je gemaakt? "))
+gewicht_aarde = float(input("Gewicht (op Aarde, in Newton): "))
 
-punten = 0
-totaal = 0
+massa = gewicht_aarde / 9.81
 
-for keer in range(aantal):
-    punten = punten + float(input("Behaald: "))
-    totaal = totaal + float(input("Totaal: "))
+ruimtelichaam = input("Kies een ruimtelichaam (Maan, Mars, Jupiter): ")
 
-percentage = punten / totaal
+zwaartekrachtsversnelling = 0
 
-if percentage >= 0.5:
-    print("Geslaagd")
-if percentage < 0.5:
-    print("Gebuisd")
+if ruimtelichaam == "Maan":
+    zwaartekrachtsversnelling = 1.62
+if ruimtelichaam == "Mars":
+    zwaartekrachtsversnelling = 3.71
+if ruimtelichaam == "Jupiter":
+    zwaartekrachtsversnelling = 24.79
+
+print(f'Jouw gewicht op {ruimtelichaam} is {massa*zwaartekrachtsversnelling} Newton.')

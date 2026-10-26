@@ -1,18 +1,8 @@
-getal = int(input("Getal: "))
+seconden = float(input("Seconden: "))
 
-origineel = getal
+maximale_tijdsduur_uur = 1.6/30
 
-if getal < 0:
-    getal = getal * -1
+maximale_tijdsduur_seconden = maximale_tijdsduur_uur * 60 * 60
 
-priemgetal = True
-
-for deler in range(2,(getal//2)+1):
-    if getal % deler == 0:
-        priemgetal = False
-
-if priemgetal:
-    print(f'{origineel} is een priemgetal.')
-
-if not priemgetal:
-    print(f'{origineel} is geen priemgetal.')
+if seconden > maximale_tijdsduur_seconden:
+    print("85 euro boete!")

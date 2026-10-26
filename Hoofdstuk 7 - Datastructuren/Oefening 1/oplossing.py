@@ -1,4 +1,14 @@
-getallen = [5,6,7,8,9]
+from collections import deque
 
-for getal in getallen:
-    print(getal)
+taakplanning = deque()
+
+while True:
+    taak = input("Taak: ")
+    if taak.lower() == "stop":
+        break
+    else:
+        taakplanning.append(taak)
+
+for taakitem in range(len(taakplanning)):
+    input()
+    print(taakplanning.popleft())

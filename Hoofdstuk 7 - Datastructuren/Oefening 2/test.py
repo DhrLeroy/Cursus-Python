@@ -8,5 +8,3 @@ from shared.test_helpers import test_output
 
 oefening_path = os.path.join(os.path.dirname(__file__), "oefening.py")
 
-test_output(oefening_path, "6")
-

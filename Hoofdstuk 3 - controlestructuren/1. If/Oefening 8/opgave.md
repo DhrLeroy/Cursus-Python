@@ -1,5 +1,6 @@
-# 8.	Je bouwt een programma voor een trajectcontrole in een schoolomgeving waar een snelheidsbeperking geldt van 30 km/uur. De totale afstand van het traject is 1,6 km. Maak een programma waarbij de tijd (in seconden) die een bestuurder aflegde in dit traject kan worden ingegeven. Als de gebruiker meer dan de toegelaten snelheid reedt, toon je "85 euro boete."
-Voorbeeld:
-Seconden: 160
-85 euro boete!
-Seconden: 200
+Oefening 8.
+
+Computerbestanden worden uitgedrukt in MB (megabytes). De downloadsnelheid van bestanden wordt uitgedrukt in Mbps (Megabits per seconde). 1 byte is gelijk aan 8 bits. Maak een programma waarin je de bestandsgrootte (in MB) en de downloadsnelheid (in Mbps) kan opgeven. Vervolgens bereken je hoeveel seconden het duurt eer de download is afgerond. Geef een melding als de download langer dan een uur dreigt te duren.
+Bijvoorbeeld:
+Bestandsgrootte (MB): 3000
+Internetsnelheid (Mbps): 1.5

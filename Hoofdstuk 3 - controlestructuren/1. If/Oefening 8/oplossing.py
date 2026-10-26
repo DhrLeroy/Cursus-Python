@@ -1,8 +1,9 @@
-seconden = float(input("Seconden: "))
+bestandsgrootte_MB = float(input("Bestandsgrootte (in MB): "))
+downloadsnelheid_Mbps = float(input("Downloadsnelheid (in Mbps): "))
 
-maximale_tijdsduur_uur = 1.6/30
+downloadsnelheid_MBps = downloadsnelheid_Mbps / 8
 
-maximale_tijdsduur_seconden = maximale_tijdsduur_uur * 60 * 60
+seconden = bestandsgrootte_MB / downloadsnelheid_MBps
 
-if seconden > maximale_tijdsduur_seconden:
-    print("85 euro boete!")
+if seconden > 60*60:
+    print("Opgelet: download duurt langer dan een uur.")

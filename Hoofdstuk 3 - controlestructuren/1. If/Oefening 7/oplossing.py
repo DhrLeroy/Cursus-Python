@@ -1,13 +1,17 @@
-metingen = [-6.1, -5.9, -6.3, -3.4, -2.9, -1.7, 0, 3.7, 5.6, 4.9]
+diepte = float(input("Diepte (in meter): "))
 
-laagste = metingen[0]
-hoogste = metingen[0]
+zwaartekracht_aarde = 9.81
+dichtheid_water = 1000
 
-for meting in metingen:
-    if meting < laagste:
-        laagste = meting
-    if meting > hoogste:
-        hoogste = meting
+hydrostatische_druk_Pa = dichtheid_water * zwaartekracht_aarde * diepte
 
-print(f'Hoogst gemeten temperatuur: {hoogste}°C')
-print(f'Laagst gemeten temperatuur: {laagste}°C')
+luchtdruk_bar = 1.013
+
+hydrostatische_druk_bar = hydrostatische_druk_Pa / 100000
+
+totale_druk_bar = luchtdruk_bar + hydrostatische_druk_bar
+
+if totale_druk_bar <= 3:
+    print('De druk op de tank is nu nog veilig')
+if totale_druk_bar > 3:
+    print('Druk op de tank (berekende totale druk) is te hoog!')

@@ -1,14 +1,11 @@
-ingredienten = []
+boeken = []
 
-for keer in range(1,4):
-    ingr = input("Ingrediënt: ")
-    ingredienten.append(ingr)
-    #ingredienten.append(f'{keer}. {ingr}')
+while True:
+    boek = input("Boek: ")
+    if boek == "ingevuld":
+        break
+    boeken.append(boek)
 
-for teller in range(3):
-    ingredienten[teller] = f'{teller+1}. {ingredienten[teller]}'
-
-for ingr in ingredienten:
-    print(ingr)
-
-
+boek = input("Welk boek werd er verkocht? ")
+boeken.remove(boek)
+print(f"Overige boeken: {boeken}")
